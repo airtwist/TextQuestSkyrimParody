@@ -2,6 +2,7 @@ import random
 from MainCharacter import Hero
 from Monster import Monster
 from Chest import Chest
+from pygame import mixer
 
 mixer.init()
 mixer.music.load('fus-ro-dah.mp3')
